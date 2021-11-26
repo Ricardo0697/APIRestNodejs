@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Ricardo0697/APIRestNodejs/issues"
   },
-  "homepage": "https://github.com/Ricardo0697/APIRestNodejs#readme"
+  "homepage": "https://github.com/Ricardo0697/APIRestNodejs#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
