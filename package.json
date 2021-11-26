@@ -1,0 +1,19 @@
+{
+  "name": "api-rest",
+  "version": "1.0.0",
+  "description": "Aplicacion Api Rest ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ricardo0697/APIRestNodejs.git"
+  },
+  "author": "Ricardo Rojas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ricardo0697/APIRestNodejs/issues"
+  },
+  "homepage": "https://github.com/Ricardo0697/APIRestNodejs#readme"
+}
