@@ -78,6 +78,13 @@ app.post('/Car', function (req, res) {
     res.send(respuesta);
 });
 app.put('/Car', function (req, res) {
+    if (!req.body) {
+        respuesta = {
+            error: true,
+            codigo: 404,
+            mensaje: 'Cuerpo incorrecto'
+        };
+    }
     if (!req.body.make || !req.body.model) {
         respuesta = {
             error: true,
